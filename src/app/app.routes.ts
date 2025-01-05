@@ -12,4 +12,11 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/login/login.component').then((c) => c.LoginComponent),
   },
+  {
+    path: 'basic-form',
+    loadComponent: () =>
+      import('./pages/basic-form/basic-form.component').then(
+        (c) => c.BasicFormComponent
+      ),
+  },
 ];
