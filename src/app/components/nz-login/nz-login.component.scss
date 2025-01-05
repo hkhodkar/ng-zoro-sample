@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  border: dashed 1px;
+  padding: 2rem;
+  background-color: #333;
+  span {
+    color: white;
+  }
+  .login-form {
+    width: 300px;
+    &-title {
+      color: white;
+      text-align: center;
+      display: block;
+      padding-bottom: 1rem;
+    }
+    &-register {
+      padding-left: 0.5rem;
+    }
+    &-margin {
+      margin-bottom: 16px;
+    }
+    &-forgot {
+      float: right;
+    }
+    &-button {
+      width: 100%;
+    }
+  }
+}
